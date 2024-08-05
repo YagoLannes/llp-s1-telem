@@ -1,8 +1,3 @@
-3. Atividade com `switch`:
-- Descrição: Implemente um programa que leia um número de 1 a 7 e exiba o dia da semana correspondente (1 = domingo, 2 = segunda-feira, etc.).
-- Dica: Use a estrutura `switch` para associar os números aos dias da semana.
-Resposta:
-
 #include <stdio.h>
 
 int main(void) {
