@@ -1,5 +1,5 @@
 
-1)`int`
+1)letra c)`int`
 
 2) letra a)`int idade;`
 
