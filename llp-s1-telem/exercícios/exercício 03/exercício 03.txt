@@ -3,7 +3,9 @@ Resposta: é quando se opera diretamente nos bits. Pode ser deslocando-os para a
 
 2)Qual a Importância da Manipulação de Bits?
 Resposta:
-quando se utiliza a manipulação de bits pode-se converter uma variável para outra sem a necessidade de converter os valores pra outros formatos, por exemplo ao utilizar o comando ''int resultado = valor << 1:'' o valor que antes era 10(1010) se torna 20(10100).
+quando se utiliza a manipulação de bits pode-se converter uma variável para outra sem a necessidade de converter os valores pra outros formatos.
+Por exemplo:
+ao utilizar o comando ''int resultado = valor << 1:'' o valor que antes era 10(1010) se torna 20(10100).
 
 3)Quais são as Operações Básicas de Manipulação de Bits?
 Resposta:
