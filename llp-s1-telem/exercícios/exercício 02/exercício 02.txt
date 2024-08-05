@@ -1,1 +1,20 @@
 
+1)`int`
+
+2) letra a)`int idade;`
+
+3) letra a)`=`
+
+4) letra a)`*`
+
+5) letra a) Calcula o resto da divisão
+
+6) letra b)`==`
+
+7) letra b)`||`
+
+8) letra c)`!`
+
+9) letra a)`<<`
+
+10) letra b)`>>
