@@ -1,8 +1,3 @@
-4. Atividade com Operador Ternário:
-- Descrição: Escreva um programa que leia dois números inteiros e exiba o maior deles usando o operador ternário.
-- Dica: Use a expressão `(a > b) ? a : b` para encontrar o maior número.
-Resposta:
-
 #include <stdio.h>
 
 int main(void) {
