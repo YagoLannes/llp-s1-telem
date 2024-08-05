@@ -1,8 +1,3 @@
-1. Atividade com `if`:
-- Descrição: Escreva um programa que leia um número inteiro e verifique se ele é positivo, negativo ou zero. Use a declaração `if`.
-- Dica: Use a função `scanf` para ler o número e compare-o com zero.
-Resposta:
-
 #include <stdio.h>
 int main(){
   int num;
