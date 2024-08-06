@@ -3,11 +3,10 @@
 #include <time.h>
 
 int main() {
-    int numeroSecreto; // Número secreto a ser adivinhado
-    int tentativa; // Tentativa do usuário
-    int continuar = 1; // Flag para continuar o loop
+    int numeroSecreto;
+    int tentativa;
+    int continuar = 1;
 
-    // Gera um número secreto aleatório entre 1 e 100
     srand(time(NULL));
     numeroSecreto = rand() % 100 + 1;
 
