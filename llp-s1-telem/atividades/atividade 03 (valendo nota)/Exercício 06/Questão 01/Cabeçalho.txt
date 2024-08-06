@@ -1,0 +1,3 @@
+Atividade com Array Unidimensional:
+- Descrição: Escreva um programa que leia 5 números inteiros do usuário e armazene-os em um array. Em seguida, exiba a soma desses números.
+- Dica: Use um loop `for` para ler os números e outro loop para calcular a soma.
