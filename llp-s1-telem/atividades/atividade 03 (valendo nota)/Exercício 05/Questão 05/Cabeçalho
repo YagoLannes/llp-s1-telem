@@ -1,0 +1,3 @@
+Atividade com `while`:
+- Descrição: Escreva um programa que exiba os números pares de 1 a 10 usando um loop `while`.
+- Dica: Use o operador de módulo (`%`) para verificar se um número é par.
