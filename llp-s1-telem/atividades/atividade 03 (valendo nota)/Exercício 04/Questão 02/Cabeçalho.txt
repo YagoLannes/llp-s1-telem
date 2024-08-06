@@ -1,0 +1,4 @@
+2. Atividade com `if else`:
+- Descrição: Crie um programa que determine se um ano é bissexto ou não. 
+ Um ano é bissexto se for divisível por 4, exceto quando é divisível por 100 (a menos que também seja divisível por 400).
+- Dica: Use a declaração `if else` para verificar as condições.
