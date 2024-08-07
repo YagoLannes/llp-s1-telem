@@ -1,0 +1,16 @@
+INÍCIO 
+OBTER pó de café
+OBTER água
+OBTER cafeteira
+OBTER caneca
+
+LIGAR cafeteira
+ADICIONAR água 
+ESPERAR água ferver
+ADICIONAR pó de café ao compartimento da cafeteira
+ESPERAR o café ferver
+
+POSICIONAR a caneca na cafeteira
+SERVIR
+
+FIM
