@@ -1,0 +1,24 @@
+ INÍCIO
+    VERIFICAR se a rua é SEGURA para atravessar
+    SE a rua NÃO for SEGURA, ENTÃO
+      ESPERAR até que a rua esteja SEGURA
+    FIM SE
+
+    OLHAR para a ESQUERDA e para a DIREITA para verificar se há VEÍCULOS aproximando
+    SE houver VEÍCULOS aproximando, ENTÃO
+      ESPERAR até que os VEÍCULOS passem
+    FIM SE
+
+    VERIFICAR se há SEMÁFORO ou SINALIZAÇÃO de trânsito
+    SE houver SEMÁFORO ou SINALIZAÇÃO, ENTÃO
+      SEGUIR as instruções do SEMÁFORO ou SINALIZAÇÃO
+    FIM SE
+
+    ATRAVESSAR a rua com ATENÇÃO e CAUTELA
+    VERIFICAR se há VEÍCULOS aproximando enquanto atravessa
+    SE houver VEÍCULOS aproximando, ENTÃO
+      PARAR e ESPERAR até que os VEÍCULOS passem
+    FIM SE
+
+    CHEGAR ao outro lado da rua com SEGURANÇA
+  FIM
