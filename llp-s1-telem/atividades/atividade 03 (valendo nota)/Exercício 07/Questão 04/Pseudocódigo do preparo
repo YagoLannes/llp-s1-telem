@@ -1,0 +1,21 @@
+INÍCIO
+    OBTER Banana
+    OBTER Leite
+    OBTER Açúcar (opcional)
+    OBTER Liquidificador
+
+    LAVAR a Banana
+    DESCASCAR a Banana
+    COLOCAR a Banana no Liquidificador
+
+    ADICIONAR Leite ao Liquidificador
+    SE desejar, ADICIONAR Açúcar ao Liquidificador
+
+    LIGAR o Liquidificador
+    BATER a mistura até que esteja LISA e CREAMOSA
+
+    DESLIGAR o Liquidificador
+    COLOCAR a vitamina em um COPo
+
+    SERVIR a vitamina de banana FRIA
+  FIM
