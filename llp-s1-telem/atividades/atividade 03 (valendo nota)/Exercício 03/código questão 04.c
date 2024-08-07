@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void exibirBits(unsigned int num) {
+void imprime_bits(unsigned int num) {
     for (int i = 31; i >= 0; i--) {
         (num & (1 << i)) ? printf("1") : printf("0");
     }
@@ -17,40 +17,21 @@ int main() {
     scanf("%u", &num2);
 
     printf("Bits do primeiro número: ");
-    exibirBits(num1);
+    imprime_bits(num1);
 
     printf("Bits do segundo número: ");
-    exibirBits(num2);
+    imprime_bits(num2);
 
-    unsigned int resultadoAnd = num1 & num2;
-    printf("Resultado da operação AND: ");
-    exibirBits(resultadoAnd);
+    
+    printf("Soma: %u\n", num1 + num2);
+    printf("Subtração: %u\n", num1 - num2);
+    printf("Multiplicação: %u\n", num1 * num2);
+    printf("Divisão: %u\n", num1 / num2);
 
-    unsigned int resultadoOr = num1 | num2;
-    printf("Resultado da operação OR: ");
-    exibirBits(resultadoOr);
-
-    unsigned int resultadoXor = num1 ^ num2;
-    printf("Resultado da operação XOR: ");
-    exibirBits(resultadoXor);
+   
+    printf("AND: %u\n", num1 & num2);
+    printf("OR: %u\n", num1 | num2);
+    printf("XOR: %u\n", num1 ^ num2);
 
     return 0;
-}#include <stdio.h>
-
-int main(void) {
-  int x;
-  printf("Insira sua pontuação: ");
-  scanf("%d", &x);
-  if(x>=0 && x<=10) {
-  printf("Insuficiente");
-  } else if(x>=11 && x<=40) {
-    printf("Regular");
-  } else if(x>=41 && x<=70) {
-    printf("Bom");
-  } else if(x>=71 && x<=90) {
-    printf("Otimo");
-  } else if(x>=91 && x<=100) {
-    printf("Excelente");
-  }
-  return 0;
 }
