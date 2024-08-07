@@ -1,0 +1,2 @@
+- Descrição: Escreva um pseudocódigo para atravessar uma rua com segurança.
+- Pseudocódigo:
