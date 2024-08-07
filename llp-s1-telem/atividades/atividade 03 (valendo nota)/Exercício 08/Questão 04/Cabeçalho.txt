@@ -1,0 +1,2 @@
+Cálculo de Média Ponderada
+- Leia três notas (pesos 2, 3 e 5) e calcule a média ponderada. Exiba a média resultante.
