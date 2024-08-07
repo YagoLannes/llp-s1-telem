@@ -1,0 +1,18 @@
+PROCEDIMENTO FritarOvo
+  INÍCIO
+    OBTER Ovo
+    OBTER Frigideira
+    OBTER Óleo
+
+    AQUECER Frigideira em FOGO MÉDIO
+    ADICIONAR Óleo à Frigideira
+    ESPERAR até que o Óleo esteja QUENTE
+
+    QUEBRAR Ovo na Frigideira
+    COZINHAR por 2-3 MINUTOS ou até que a CLARA esteja COZIDA
+    VIRAR Ovo
+    COZINHAR por mais 1-2 MINUTOS ou até que a GEMA esteja COZIDA ao seu gosto
+
+    RETIRAR Ovo da Frigideira
+    SERVIR
+  FIM
