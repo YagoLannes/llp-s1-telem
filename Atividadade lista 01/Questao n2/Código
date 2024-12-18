@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class atv_02 {
+    public static void main(String[] args) {
+        // Cria um objeto Scanner para ler a entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+        
+        // Solicita ao usuário para inserir o primeiro número
+        System.out.print("Digite o primeiro número: ");
+        float numero1 = scanner.nextInt();
+        
+        // Solicita ao usuário para inserir o segundo número
+        System.out.print("Digite o segundo número: ");
+        float numero2 = scanner.nextInt();
+        
+        // Solicita ao usuário para inserir o terceiro número
+        System.out.print("Digite o terceiro número: ");
+        float numero3 = scanner.nextInt();
+          
+        // Calcula a média aritimética
+        float soma = (numero1 + numero2 + numero3)/3;
+        
+        // Resultado
+        System.out.println("A média aritimética do número é: " + soma);
+        
+        scanner.close();
+    }
+}
