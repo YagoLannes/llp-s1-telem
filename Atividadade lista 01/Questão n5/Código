@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class atv_05 {
+    public static void main(String[] args) {
+        // Cria um objeto Scanner para ler a entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+
+        //Entra com um número
+        System.out.print("Digite um número:");
+        float numero = scanner.nextFloat();
+    
+
+    //Verifica se o número se encontra entre 10 e 20 (lembrando que o proprio 10 e 20 estão fora desse conjunto)
+String resultado = (numero > 10 && numero < 20) ? "Esse número se encontra entre 10 e 20" : "Esse número não se encontra entre 10 e 20";
+
+System.out.println(resultado);
+
+scanner.close();
+}
+}
