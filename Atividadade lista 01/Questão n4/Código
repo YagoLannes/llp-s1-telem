@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class atv_04 {
+    public static void main(String[] args) {
+        // Cria um objeto Scanner para ler a entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+        
+        // Solicita ao usuário para inserir um número
+        System.out.print("Digite a primeira idade: ");
+        int idade1 = scanner.nextInt();
+        
+        // Solicita ao usuário para inserir um número
+        System.out.print("Digite a segunda idade: ");
+        int idade2 = scanner.nextInt();
+
+        // Usa o operador ternário para determinar se a idade qual é a maior/menor ou se é igual
+        String resultado = (idade1 > idade2) ? "A primeira idade é maior.":
+                            (idade1 < idade2) ? "A segunda idade é maior.":
+                            "As idades são iguais.";
+
+         System.out.println(resultado);
+     
+        scanner.close();
+    }
+}
