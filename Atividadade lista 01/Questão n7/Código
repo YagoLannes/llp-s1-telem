@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Atv_07 {
+    public static void main(String[] args) {
+        // Cria um objeto Scanner para ler a entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+
+        //Entrar com o a idade
+        System.out.print("Digite sua idade: ");
+        int idade = scanner.nextInt();
+
+        String resultado = (idade >= 16) ? "Você está com idade para votar" : "Você ainda não tem idade para votar";
+
+        //exibe o resultado
+        System.out.println(resultado);
+        scanner.close();
+
+        }
+    }
