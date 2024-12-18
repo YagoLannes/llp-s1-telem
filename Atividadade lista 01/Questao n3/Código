@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class atv_03 {
+    public static void main(String[] args) {
+        // Cria um objeto Scanner para ler a entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+        
+        // Solicita ao usuário para inserir um número
+        System.out.print("Digite um número inteiro: ");
+        int numero = scanner.nextInt();
+        
+        // Usa o operador ternário para determinar se o número é par ou ímpar
+        String resultado = (numero % 2 == 0) ? "par" : "ímpar";
+        
+        //Resultado
+        System.out.println("O número " + numero + " é " + resultado + ".");
+        
+        scanner.close();
+    }
+}
