@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class atv_01 {
+    public static void main(String[] args) {
+        // Cria um objeto Scanner para ler a entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+        
+        // Solicita ao usuário para inserir o primeiro número
+        System.out.print("Digite o primeiro número inteiro: ");
+        int numero1 = scanner.nextInt();
+        
+        // Solicita ao usuário para inserir o segundo número
+        System.out.print("Digite o segundo número inteiro: ");
+        int numero2 = scanner.nextInt();
+        
+        // Calcula a soma dos dois números
+        int soma = numero1 + numero2;
+        
+        //Resultado
+        System.out.println("A soma de " + numero1 + " e " + numero2 + " é: " + soma);
+        
+        scanner.close();
+    }
+}
