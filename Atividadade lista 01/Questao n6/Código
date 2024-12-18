@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Atv_06 {
+    public static void main(String[] args) {
+        // Cria um objeto Scanner para ler a entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+
+        //Entrar com o preço original
+        System.out.print("Digite o preço original:");
+        Float preço = scanner.nextFloat();
+
+        //Entrar com o valor do desconto
+        System.out.print("Digite o percentual de desconto:");
+        Float desconto = scanner.nextFloat();
+
+
+       // calculo do valor do desconto
+        Float resto = preço * desconto/100; 
+
+       //calculo do valor com desconto
+        Float resultado = preço - resto;
+
+       //exibe o valor com desconto
+        System.out.println("O preço com desconto fica igual a R$ " + resultado + ".");
+
+        scanner.close();
+
+        }
+    }
