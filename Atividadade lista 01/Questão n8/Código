@@ -1,0 +1,23 @@
+public class atv_08 {
+    public static void main(String[] args) {
+
+        //declarar a variável
+        int contador = 5;
+
+        //Mostra o valor da variavel " contator"
+        System.out.println("Valor do contador: " + contador);
+
+        //incrementa +1 a variável
+        ++ contador;
+
+        //mostra o valor da variável com o incremento
+        System.out.println("Valor do contador pós incremento: " + contador);
+
+        //decrementa -1 a variável
+        -- contador;
+
+        //mostra o valor da variável com o decremento
+        System.out.println("Valor do contador pós decremento: " + contador);
+
+        }
+    }
