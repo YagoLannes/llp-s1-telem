@@ -1,0 +1,59 @@
+import java.util.Scanner;
+
+public class atv_10 {
+    public static void main(String[] args) {
+        // Cria um objeto Scanner para ler a entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+
+        //Entrar com o primeiro numero
+        System.out.print("Digite o primeiro numero: ");
+        Float numero1 = scanner.nextFloat();
+
+        //Entrar com o segundo numero
+        System.out.print("Digite o segundo numero: ");
+        Float numero2 = scanner.nextFloat();
+
+
+        //solicitar qual operação deseja realizar:
+        System.out.print("Digite 1 para soma, 2 para subtração, 3 para multiplicação ou 4 para divisão: ");
+        int numero3 = scanner.nextInt();
+
+        //definir o valor da variável "resultado"
+
+        float resultado = 0;
+
+        //operações: (lembra que estou utilizando numeros inteiros, n sendo necessário a utilzação das áspas simples ')
+        switch (numero3) {
+            case 1:
+            resultado = numero1 + numero2;
+                
+                break;
+
+            case 2:
+               resultado = numero1 - numero2;
+                  
+                break;
+        
+            case 3:
+               resultado = numero1 * numero2;
+                  
+                break;
+
+            case 4:
+                resultado = numero1 / numero2;
+                   
+                 break;
+
+            default:
+                System.out.println("Operador inválido");
+
+            return;
+        }
+   
+
+        //exibe o resultado
+        System.out.println("O resultado da operação é: " + resultado);
+        scanner.close();
+
+        }
+    }
