@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class atv_09 {
+    public static void main(String[] args) {
+        // Cria um objeto Scanner para ler a entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+
+        //Entrar com a primeira idade
+        System.out.print("Digite a primeira idade: ");
+        int idade1 = scanner.nextInt();
+
+        //Entrar com a segunda idade
+         System.out.print("Digite a segunda idade: ");
+        int idade2 = scanner.nextInt();
+
+
+        String resultado = (idade1 >= 18 && idade2 >= 18) ? "Ambas as pessoas são maiores de idade" :
+                                                            "Nem todos são maiores de idade";
+
+        //exibe o resultado
+        System.out.println(resultado);
+        scanner.close();
+
+        }
+    }
